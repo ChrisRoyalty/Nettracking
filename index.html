@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nettracking</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-[#13131d] text-white h-fit">
+    <header
+      class="fixed top-0 left-0 z-[1000] w-full h-[15vh] flex align-items-center justify-center bg-transparent shadow-md shadow-gray-700"
+    >
+      <div
+        class="header-content max-sm:w-[80%] w-[90%] h-fit flex justify-between"
+      >
+        <nav class="flex align-middle w-fit gap-28">
+          <div class="logo">
+            <a href="" class="text-[20px]">Nettracking</a>
+          </div>
+          <div class="navItems flex gap-8 items-center max-[1100px]:hidden">
+            <a href="" class="">Features</a>
+            <a href="" class="">Pricing</a>
+            <a href="" class="">How it works</a>
+            <a href="" class="">Knowledge base</a>
+            <a href="" class="">FAQ</a>
+          </div>
+        </nav>
+        <div
+          class="accountBtns flex gap-8 align-content-center items-center max-[1100px]:hidden"
+        >
+          <a href="" class="px-4 py-2 rounded bg-[#1e1e28]">Sign in</a>
+          <a href="" class="px-4 py-2 rounded bg-[#fff] text-black">Sign up</a>
+        </div>
+      </div>
+      <div id="menuIcon" class="menu min-[1100px]:hidden">
+        <!-- <a href="" class="text-[25px] border px-2 py-1"
+          ><i id="openIcon" class="bi bi-list"></i
+          ><i id="closeIcon" class="bi bi-x hidden"></i
+        ></a> -->
+        <i id="openMenu" class="bi bi-list cursor-pointer border px-2 py-1"></i>
+        <i
+          id="closeMenu"
+          class="bi bi-x cursor-pointer border px-2 py-1 hidden"
+        ></i>
+      </div>
+    </header>
+    <!-- Menu Display onclick (hamburger menu Icon) -->
+    <div
+      id="menuContainer"
+      class="menuContainer justify-center items-center hidden"
+    >
+      <div
+        class="max-sm:w-[80%] w-[90%] border bg-gray-400 text-black h-fit py-[40px] mt-[22vh] rounded flex justify-center items-center"
+      >
+        <div class="content w-[95%] h-[90%] flex flex-col gap-2">
+          <a
+            href=""
+            class="p-3 hover:bg-[#14121c] hover:text-white hover:rounded"
+            >Features</a
+          >
+          <a
+            href=""
+            class="p-3 hover:bg-[#14121c] hover:text-white hover:rounded"
+            >Pricing</a
+          >
+          <a
+            href=""
+            class="p-3 hover:bg-[#14121c] hover:text-white hover:rounded"
+            >How It Works</a
+          >
+          <a
+            href=""
+            class="p-3 hover:bg-[#14121c] hover:text-white hover:rounded"
+            >Knowledge base</a
+          >
+          <a
+            href=""
+            class="p-3 hover:bg-[#14121c] hover:text-white hover:rounded"
+            >FAQ</a
+          >
+          <div
+            class="contact hover:bg-[#14121c] text-[#14121c] hover:text-white hover:rounded py-4"
+          >
+            <h4 class="text-center text-[22px] font-bold">Contact Us</h4>
+            <div class="contact-links flex items-center justify-center mt-3">
+              <a href="https://facebook.com" class="bouncing-icon">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="https://twitter.com" class="bouncing-icon">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="https://linkedin.com" class="bouncing-icon">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main
+      class="w-full h-[50vh] max-md:h-fit max-md:py-12 mt-[22vh] flex justify-center"
+    >
+      <div
+        class="main-content max-sm:w-[95%] w-[90%] flex flex-col justify-center items-center h-full text-center gap-4"
+      >
+        <h1 class="text-[45px] font-bold max-sm:text-[25px]">
+          Content marketing solution & <br />
+          idea of your business
+        </h1>
+        <p class="text-secondary">
+          Nettracking is a content marketing solution that <br />
+          tracks the effectiveness of your blog.
+        </p>
+        <div class="w-full btns flex justify-center gap-4 max-md:flex-col">
+          <button class="bg-[#ea4f47] text-white md:px-4 py-2 rounded">
+            <span>Explore Platform</span>
+            <i class="bi bi-arrow-right"></i>
+          </button>
+          <button class="bg-[#23212a] text-white md:px-4 py-2 rounded">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
